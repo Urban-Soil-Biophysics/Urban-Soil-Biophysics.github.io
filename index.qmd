@@ -1,0 +1,46 @@
+---
+title: ""
+page-layout: custom
+---
+
+::: {.home-hero}
+::: {.hero-content}
+# Urban Soil Biophysics
+
+Research group at **Pontificia Universidad Católica de Chile** and [CEDEUS](https://cedeus.cl)
+
+We study how urban soils store and transmit water and carbon, and how these processes can explain the biogeophysics of soils in the city.
+
+[Our Research](projects.qmd){.btn-primary-usb} &nbsp; [Publications](publications.qmd){.btn-secondary-usb}
+:::
+:::
+
+::: {.home-section}
+## Focus Areas
+
+::: {.focus-grid}
+::: {.focus-card}
+### Soil Water Retention
+Characterization of soil water retention curves (SWRCs) in urban soils. 
+:::
+
+::: {.focus-card}
+### Nature-Based Solutions
+Hydrological performance of green infrastructure such as green roofs, urban parks, gardens, etc.
+:::
+
+::: {.focus-card}
+### Urban Soil Health
+Carbon dynamics, biological activity, and soil physical properties of urban soils. 
+:::
+
+:::
+:::
+
+::: {.home-section .section-muted}
+## Institutional Context
+
+We are part of [CEDEUS](https://cedeus.cl): Centro de Desarrollo Urbano Sustentable. A research centre hosted jointly by Pontificia Universidad Católica de Chile and Universidad de Concepción, funded by ANID. Our work links soil biophysics with urban planning, climate adaptation, and environmental policy. 
+
+[About our people →](people.qmd)
+:::

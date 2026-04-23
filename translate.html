@@ -1,0 +1,71 @@
+<div id="translate-widget">
+  <button id="translate-toggle" aria-label="Translate">🌐</button>
+  <div id="translate-options" hidden>
+    <a id="tr-es" href="#" onclick="return doTranslate('es')">Español</a>
+    <a id="tr-pt" href="#" onclick="return doTranslate('pt')">Português</a>
+    <a id="tr-de" href="#" onclick="return doTranslate('de')">Deutsch</a>
+  </div>
+</div>
+
+<style>
+#translate-widget {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 9999;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 0.85rem;
+  text-align: right;
+}
+
+#translate-toggle {
+  background: #30364f;
+  color: #f0f0db;
+  border: none;
+  border-radius: 50%;
+  width: 2.4rem;
+  height: 2.4rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: background 0.15s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+#translate-toggle:hover { background: #464e6e; }
+
+#translate-options {
+  margin-top: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  align-items: flex-end;
+}
+#translate-options a {
+  background: #30364f;
+  color: #f0f0db !important;
+  padding: 0.3rem 0.75rem;
+  text-decoration: none !important;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+  transition: background 0.15s;
+  white-space: nowrap;
+}
+#translate-options a:hover { background: #464e6e; }
+</style>
+
+<script>
+document.getElementById('translate-toggle').addEventListener('click', function () {
+  var opts = document.getElementById('translate-options');
+  opts.hidden = !opts.hidden;
+});
+
+function doTranslate(lang) {
+  var url = 'https://translate.google.com/translate?sl=en&tl=' + lang + '&u=' + encodeURIComponent(window.location.href);
+  window.open(url, '_blank');
+  document.getElementById('translate-options').hidden = true;
+  return false;
+}
+</script>

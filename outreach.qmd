@@ -1,0 +1,40 @@
+---
+title: "Outreach"
+---
+
+## Science Communication
+
+Our group is committed to translating research on urban soils into knowledge that is accessible to practitioners, planners, and the general public. Below is a selection of outreach activities and resources.
+
+---
+
+## Policy & Technical Documents
+
+::: {.outreach-card}
+**SOON**  
+*CEDEUS Policy Brief · 2026*
+
+A technical document addressed to urban planners and municipal governments summarising evidence on how urban soil properties affect the performance of green infrastructure in Santiago's Mediterranean climate. Developed in the context of the CEDEUS research agenda.
+
+[Download PDF](#){.btn-secondary-usb}
+:::
+
+---
+
+## Social Media
+
+📸 Follow us for updates, activities, and new content:
+
+<div style="border: 1px solid #ddd; padding: 1rem; border-radius: 12px; text-align: center; margin: 1rem 0;">
+  <p style="margin-bottom: 0.5rem; font-size: 1.1rem;"><strong>Follow us on Instagram</strong></p>
+  <a href="https://www.instagram.com/soilbiophysicsgirls/" target="_blank" 
+     style="display: inline-block; background-color: #E1306C; color: white; padding: 0.7rem 1.2rem; border-radius: 8px; text-decoration: none; font-weight: bold;">
+    @soilbiophysicsgirls
+  </a>
+</div>
+
+## Code & Data
+
+Open-source code and datasets from our research are available on GitHub.
+
+[GitHub · Urban-Soil-Biophysics](https://github.com/Urban-Soil-Biophysics){.btn-secondary-usb}

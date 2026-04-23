@@ -1,0 +1,22 @@
+---
+title: "Publications"
+---
+
+::: {.pub-note}
+Publications associated to the urban soil research project, for a complete and updated list check the ORCID of each researcher.
+:::
+
+## 2026 
+
+::: {.pub-entry}
+::: {.pub-entry}
+Acevedo, S. E.<sup><a href="https://orcid.org/0000-0003-3203-2106"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" width="12"></a></sup>, 
+Alvarez-Torres, B.<sup><a href="https://orcid.org/0000-0003-4208-0320"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" width="12"></a></sup>, 
+Séré, G.<sup><a href="https://orcid.org/0000-0003-4310-6115"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" width="12"></a></sup>, 
+& Villaredt, M.<sup><a href="https://orcid.org/0000-0002-0081-3170"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" width="12"></a></sup> 
+(2026). **Common challenges and potential approaches in urban soil physics research.** 
+*Elementa: Science of the Anthropocene, 14*(1). 
+[{{< fa link >}} DOI](https://doi.org/10.1525/elementa.2025.00099){.pub-doi}
+:::
+:::
+

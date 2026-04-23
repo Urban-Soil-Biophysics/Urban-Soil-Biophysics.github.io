@@ -1,0 +1,285 @@
+/* ============================================================
+   Urban Soil Biophysics — styles.css
+   Palette: #30364f · #acbac4 · #e1d9bc · #f0f0db
+   Font: IBM Plex Sans throughout (sans-serif)
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap');
+
+:root {
+  --c-dark:    #30364f;
+  --c-mid:     #acbac4;
+  --c-warm:    #e1d9bc;
+  --c-cream:   #f0f0db;
+  --c-white:   #ffffff;
+  --c-text:    #1e2230;
+  --c-muted:   #6b7280;
+  --c-visited: #7a8099;
+}
+
+/* ---- Base ---- */
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  color: var(--c-text);
+  background: var(--c-white);
+  line-height: 1.75;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+  color: var(--c-dark);
+  line-height: 1.3;
+}
+
+h1 { font-size: 2.2rem; font-weight: 600; }
+h2 {
+  font-size: 1.35rem;
+  font-weight: 500;
+  margin-top: 2.5rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--c-mid);
+}
+h3 { font-size: 1.05rem; font-weight: 500; }
+
+a         { color: var(--c-dark); text-decoration: underline; text-underline-offset: 2px; }
+a:hover   { color: #5a6380; }
+a:visited { color: var(--c-visited); }
+
+p { margin-bottom: 1rem; }
+
+/* ---- Navbar ---- */
+.navbar { background-color: var(--c-dark) !important; border-bottom: none; }
+.navbar-brand, .navbar-nav .nav-link {
+  color: var(--c-cream) !important;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.92rem;
+  letter-spacing: 0.01em;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active { color: #ffffff !important; }
+.navbar a:visited { color: var(--c-cream) !important; }
+
+/* ---- Footer ---- */
+.nav-footer {
+  background-color: var(--c-cream) !important;
+  border-top: 1px solid var(--c-mid);
+  color: var(--c-muted) !important;
+  font-size: 0.87rem;
+}
+.nav-footer a         { color: var(--c-dark); }
+.nav-footer a:visited { color: var(--c-visited); }
+
+/* ---- Main content ---- */
+#quarto-content main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+/* ---- Hero ---- */
+.home-hero {
+  background-color: var(--c-dark);
+  color: var(--c-cream);
+  padding: 4.5rem 2rem;
+  width: 100%;
+}
+.hero-content { max-width: 800px; margin: 0 auto; }
+.home-hero h1 { font-size: 2.6rem; font-weight: 600; color: #ffffff; margin-bottom: 1.2rem; }
+.home-hero p  { font-size: 1.05rem; font-weight: 300; color: var(--c-mid); max-width: 620px; }
+.home-hero a,
+.home-hero a:visited  { color: #ffffff !important; text-decoration: underline; text-underline-offset: 2px; text-decoration-color: var(--c-mid); }
+.home-hero a:hover    { color: var(--c-cream) !important; text-decoration-color: var(--c-cream); }
+
+/* ---- Home sections ---- */
+.home-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+.section-muted {
+  background: var(--c-cream);
+  border-top: 1px solid var(--c-mid);
+  border-bottom: 1px solid var(--c-mid);
+  padding: 3rem 2rem;
+  max-width: 100%;
+  width: 100%;
+}
+.section-muted > * { max-width: 900px; margin-left: auto; margin-right: auto; }
+
+/* ---- Focus grid (photo cards) ---- */
+.focus-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.focus-card {
+  background: var(--c-white);
+  border: 1px solid var(--c-mid);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Photo fills the top of the card */
+.focus-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  margin: 0 !important;
+}
+
+/* Fallback placeholder when image is missing */
+.focus-card img[src=""],
+.focus-card img:not([src]) {
+  background: var(--c-warm);
+  min-height: 180px;
+}
+
+/* Title and description below image */
+.focus-card-body {
+  padding: 0.9rem 1rem 1rem;
+}
+.focus-card-body h3 {
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin: 0 0 0.4rem;
+  color: var(--c-dark);
+}
+.focus-card-body p {
+  font-size: 0.85rem;
+  color: var(--c-muted);
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* ---- Buttons ---- */
+.btn-primary-usb {
+  display: inline-block;
+  background: transparent;
+  color: var(--c-cream) !important;
+  padding: 0.5rem 1.3rem;
+  border: 1px solid var(--c-cream);
+  font-weight: 400;
+  font-size: 0.92rem;
+  text-decoration: none !important;
+  transition: all 0.15s;
+}
+.btn-primary-usb:hover   { background: var(--c-cream); color: var(--c-dark) !important; }
+.btn-primary-usb:visited { color: var(--c-cream) !important; }
+
+.btn-secondary-usb {
+  display: inline-block;
+  background: var(--c-dark);
+  color: var(--c-cream) !important;
+  padding: 0.5rem 1.3rem;
+  border: 1px solid var(--c-dark);
+  font-size: 0.92rem;
+  text-decoration: none !important;
+  transition: all 0.15s;
+}
+.btn-secondary-usb:hover   { background: #464e6e; border-color: #464e6e; color: #ffffff !important; }
+.btn-secondary-usb:visited { color: var(--c-cream) !important; }
+
+/* ---- People ---- */
+.person-card {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  padding: 1.8rem;
+  background: var(--c-white);
+  border: 1px solid var(--c-mid);
+  border-left: 4px solid var(--c-dark);
+}
+.person-img {
+  width: 120px;
+  height: 120px;
+  min-width: 120px;
+  min-height: 120px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 50%;
+  flex-shrink: 0;
+  border: 2px solid var(--c-mid);
+  display: block;
+}
+.person-info h3 { margin-top: 0; }
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.person-card-sm {
+  padding: 1.1rem 1.3rem;
+  border: 1px solid var(--c-mid);
+  background: var(--c-white);
+}
+.person-card-sm h3 { font-size: 0.97rem; margin-top: 0; margin-bottom: 0.25rem; }
+.person-card-sm p  { font-size: 0.85rem; color: var(--c-muted); margin: 0; }
+
+/* ---- Projects ---- */
+.project-card {
+  margin-bottom: 1.8rem;
+  padding: 1.6rem;
+  background: var(--c-white);
+  border: 1px solid var(--c-mid);
+  border-left: 4px solid var(--c-dark);
+}
+.project-card h3 { margin-top: 0; }
+
+/* ---- Publications ---- */
+.pub-note {
+  font-size: 0.88rem;
+  color: var(--c-muted);
+  background: var(--c-cream);
+  padding: 0.7rem 1rem;
+  margin-bottom: 1.5rem;
+  border-left: 3px solid var(--c-mid);
+}
+.pub-entry {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--c-warm);
+  font-size: 0.93rem;
+  line-height: 1.65;
+}
+.pub-entry:last-child { border-bottom: none; }
+.pub-doi         { font-size: 0.82rem; color: var(--c-muted) !important; text-decoration: none !important; }
+.pub-doi:hover   { color: var(--c-dark) !important; }
+.pub-doi:visited { color: var(--c-visited) !important; }
+
+/* ---- Outreach ---- */
+.outreach-card {
+  margin-bottom: 1.4rem;
+  padding: 1.3rem 1.5rem;
+  border: 1px solid var(--c-mid);
+  background: var(--c-white);
+}
+
+/* ---- Tables ---- */
+table { width: 100%; border-collapse: collapse; font-size: 0.92rem; margin: 1rem 0; }
+th { background: var(--c-dark); color: var(--c-cream); padding: 0.55rem 1rem; text-align: left; font-weight: 400; }
+td { padding: 0.5rem 1rem; border-bottom: 1px solid var(--c-warm); }
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: var(--c-cream); }
+
+/* ---- Callouts ---- */
+.callout { border-left-color: var(--c-mid) !important; }
+
+/* ---- Responsive ---- */
+@media (max-width: 640px) {
+  .person-card { flex-direction: column; gap: 1rem; }
+  .home-hero h1 { font-size: 1.9rem; }
+  .focus-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 420px) {
+  .focus-grid { grid-template-columns: 1fr; }
+}

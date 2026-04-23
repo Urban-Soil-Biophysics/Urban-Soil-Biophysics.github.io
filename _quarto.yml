@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Urban Soil Biophysics"
+  description: "Pontificia Universidad Católica de Chile · CEDEUS"
+  favicon: files/images/favicon.ico
+  open-graph: true
+
+  navbar:
+    background: "#30364f"
+    foreground: "#f0f0db"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "People"
+        href: people.qmd
+      - text: "Projects"
+        href: projects.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Outreach"
+        href: outreach.qmd
+    right:
+      - icon: github
+        href: https://github.com/Urban-Soil-Biophysics
+        aria-label: GitHub
+
+  page-footer:
+    background: "#f0f0db"
+    foreground: "#6b7280"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    lang: en
+    link-external-icon: false
+    link-external-newwindow: true
+    include-after-body: translate.html

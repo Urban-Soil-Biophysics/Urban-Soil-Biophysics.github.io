@@ -1,0 +1,22 @@
+---
+title: "Projects"
+---
+
+## Active Projects
+
+::: {.project-card}
+### How do urban microclimates and soil physical properties influence soil organic carbon (SOC) dynamics across different urban landscapes?
+**Grant:** Fondecyt Iniciación
+**Funding:** ANID
+**Period:** 2026 - 2029 
+
+Urban areas are major CO₂ emitters but also potential sinks through soil organic carbon (SOC) storage. Despite covering only ~2.5% of land, urban soils may store disproportionately high SOC, though estimates vary. However, the roles of soil texture and urban microclimate, particularly urban heat islands, remain poorly understood. This project examines how urban temperature and soil physical properties influence SOC dynamics in urban greenspaces in Santiago, Chile. By integrating field sampling, laboratory analyses and remote sensing the study aims to quantify SOC variability and identify mechanisms linking urban heat and soil properties, improving understanding of urban soils in climate mitigation strategies.
+:::
+
+
+## Past Projects
+
+| Project | Funding | Period |
+|---------|---------|--------|
+| [INICIO UC]| VRI UC | 2025 |
+

@@ -33,6 +33,14 @@ Topic: Urban Soil C dynamics
 [GitHub](https://github.com/runaweay)
 :::
 
+::: {.person-card-sm}
+### Agustín Coddou
+**Research Assistant (2025)**  
+Topic: Urban Temperature 
+[Linkedin](https://www.linkedin.com/in/agustin-coddou/) &nbsp;
+[GitHub](https://github.com/acoddou)
+:::
+
 :::
 
 ---
@@ -43,7 +51,9 @@ Topic: Urban Soil C dynamics
 |------|-------------|------|
 | [Alejandra Vega](https://www.cedeus.cl/sobre-nosotros/investigadores/ia-alejandra-vega/) | CEDEUS | Urban Soil Geochemist |
 | [Moreen Willaredt](https://urbansciencelab.ucdavis.edu/people-0) | UC-Davis Urban Science Lab | Urban Ecosystem Scientist |
+
 ---
+
 
 ::: {.callout-note appearance="minimal"}
 Interested in collaboration? [Contact Us](mailto:seaceved@uc.cl)
